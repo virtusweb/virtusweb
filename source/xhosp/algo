@@ -1,0 +1,50 @@
+
+
+
+
+
+
+.row
+  .span10.offset1
+    .title
+      xHosp  Sistema integral para la administración hospitalaria<br/>
+      <br/>
+
+.row
+  .span5   
+    %img{:src => "/images/87454334.jpg", :alt => "xHosp"}
+  .span7
+    .text
+      xHosp es un sistema de información hospitalario para el apoyo operacional y el control administrativo integral de un hospital o clínica.<br/>
+      %ul
+        %li
+          Permite el control administrativo de pacientes hospitalizados durante su internamiento, de pacientes de corta estancia o ambulatorios así como de pacientes externos a una unidad hospitalaria.<br/>
+        %li
+          Ingreso de la información relevante del paciente así como la asignación y control de cuartos dentro del hospital.<br/>
+        %li
+          Controla el acceso del paciente a las diferentes áreas hospitalarias registrando las prestaciones otorgadas al paciente directamente en el servicio donde se otorgaron. <br/>
+
+.row
+  .span12 
+    .text
+      %ul
+        %li
+          Administra la programación y asignación de quirófanos así como el registro de las cirugías (tiempos, suministros y medicamentos).<br/>
+        %li
+          Incluye el control de farmacias para llevar a cabo la entrada de medicamentos y suministros así como el despacho de estos artículos a pacientes, hacia las diferentes áreas hospitalarias o la transferencia de artículos entre las distintas farmacias dentro del hospital.<br/>
+        %li
+          Controla el egreso del paciente registrando el tipo de egreso y sus diagnósticos.<br/>
+        %li
+          Hace posible llevar el control de las transferencias o movimientos de los pacientes entre las diferentes áreas de hospitalización.<br/>
+        %li
+          Incluye el control electrónico del expediente médico: diagnósticos, estudios, movimiento del paciente dentro del hospital, notas médicas, etc.<br/>
+        %li
+          Por medio del sistema se realiza la facturación de pacientes tomando en cuenta en su caso, las características del convenio que se tenga con las diferentes empresas o seguros, así como también el manejo de casos especiales.<br/>
+        %li
+          Controla en forma completa y detallada la cobranza a las empresas con convenios.<br/>
+        %li
+          Permite la explotación de información médica con fines estadísticos o de la información administrativa con fines de control.<br/>
+        %li
+          Por medio de interfaces puede realizarse la transferencia de información administrativa hacia los sistemas contables de la compañía.<br/>
+        %li
+          xHosp fue diseñado desde su inicio como un sistema modular y escalable que puede ser instalado en la mayoría de las instituciones hospitalarias desde clínicas regionales pequeñas hasta los grandes centro médicos institucionales o privados.<br/>

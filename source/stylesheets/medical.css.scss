@@ -1,0 +1,76 @@
+
+body {
+  &.principal {
+    background-image: url(/images/back.jpg);
+   }
+  &.paginas {
+    background-image: url(/images/backp.jpg);
+   }
+}
+
+.mtitle {
+  font-family: 'Questrial', arial, serif;
+  font-size: 180%;
+  line-height: 1;
+  text-align: rigth;
+  padding: 10px;
+  margin: 10px
+}
+
+.menu {
+
+  font-family: 'Questrial', arial, serif;
+  font-size: 140%;
+  text-align: right;
+}
+
+.title {
+  font-family: 'Questrial', arial, serif;
+  font-size: 180%;
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.titlep {
+  font-family: 'Questrial', arial, serif;
+  font-size: 180%;
+  line-height: 1;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.titlec {
+  font-family: 'Questrial', arial, serif;
+  font-size: 150%;
+  line-height: 1;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+a {
+    color: blue;
+}
+.text {
+  font-family: 'Questrial', arial, serif;
+  font-size: 120%;
+  color: black;
+  line-height: 1.5;
+  text-align: justify;
+
+}
+
+
+.nav .nav-header {
+  font-size: 16px;
+}
+
+li {
+    line-height: 25px;
+}
+
+.hero-unit {
+  padding: 15px
+}
+
