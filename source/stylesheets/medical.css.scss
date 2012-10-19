@@ -3,8 +3,12 @@ body {
   &.principal {
     background-image: url(/images/back.jpg);
    }
-  &.paginas {
-    background-image: url(/images/backp.jpg);
+  &.paginash {
+    background-color: #90b3d3;
+   }
+
+  &.paginasl {
+    background-color: #75bd69;
    }
 }
 
@@ -13,7 +17,7 @@ body {
   font-size: 180%;
   line-height: 1;
   text-align: rigth;
-  padding: 10px;
+  padding-left: 10px;
   margin: 10px
 }
 
