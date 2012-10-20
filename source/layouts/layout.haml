@@ -5,6 +5,11 @@
     %link(href='http://fonts.googleapis.com/css?family=Questrial&v1' rel='stylesheet' type='text/css')
     = stylesheet_link_tag "bootstrap","medical"
     = javascript_include_tag  "bootstrap"
+
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"}
+    %script{:src => "/javascripts/jquery.js"}
+    %script{:src => "/javascripts/jquery.expander.js"}
+ 
    
   %body.principal
     .container    
@@ -37,4 +42,35 @@
             %a{:href => "/pages/contacto.html"} Contacto
 
       = yield
+       
+    :javascript
+      $(document).ready(function() {
+        var opts = {collapseTimer: 4000};
+          $.each(['beforeExpand', 'afterExpand', 'onCollapse'], function(i, callback) {
+          opts[callback] = function(byUser) {
+            var by, msg = '' + callback;
+  
+            if (callback == 'onCollapse') {
+              msg += ' (' + (byUser ? 'user' : 'timer') + ')';
+            }
+            msg += '';
+  
+            $(this).parent().parent().append(msg)
+          }
+        });
+  
+        $('dl.expander dd').eq(0).expander();
+        $('dl.expander dd').slice(1).expander(opts);
+  
+  
+        $('ul.expander li').expander({
+          slicePoint: 100,
+          widow: 4,
+          expandSpeed: 0,
+          userCollapseText: '[^]'
+        });
+  
+        $('div.expander').expander();
+      });       
+ 
        

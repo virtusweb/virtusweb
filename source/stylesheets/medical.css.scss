@@ -4,11 +4,17 @@ body {
     background-image: url(/images/back.jpg);
    }
   &.paginash {
-    background-color: #90b3d3;
+    background-color: #b6ffab;
+   }
+   &.paginasr {
+    background-color: #ded6e5;
+   }
+&.paginasb {
+    background-color: #fdedee;
    }
 
   &.paginasl {
-    background-color: #75bd69;
+    background-color: #c2dfff;
    }
 }
 
@@ -53,6 +59,8 @@ body {
   padding-bottom: 20px;
 }
 
+
+
 a {
     color: blue;
 }
@@ -64,7 +72,14 @@ a {
   text-align: justify;
 
 }
+.texti {
+  font-family: 'Questrial', arial, serif;
+  font-size: 100%;
+  color: black;
+  line-height: 1.5;
+  text-align: left;
 
+}
 
 .nav .nav-header {
   font-size: 16px;

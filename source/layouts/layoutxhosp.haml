@@ -49,7 +49,8 @@
                 .well.sidebar-nav
                   %ul.nav.nav-list
                
-                    %li.nav-header xHosp
+                    %li.nav-header 
+                      %a{:href => "/xhosp/xhosp.html"} xHosp
                     %li
                       %a{:href => "/xhosp/caracteristicash.html"} Características Generales
                     %li
@@ -61,8 +62,14 @@
                     %li
                       %a{:href => "/xhosp/videosh.html"} Videos de demostración
                     %li
-                      %a{:href => "/pages/contacto.html"} Solicite Información
-              .span9
+                      %a{:href => "/xhosp/contactoh.html"} Solicite Información
+                %a.btn.btn-small.btn-info{:href => "/xlab/xlab.html"}
+                  xLab
+                %a.btn.btn-small.btn-info{:href => "/xray/xray.html"}
+                  xRay 
+                %a.btn.btn-small.btn-info{:href => "/xblood/xblood.html"}
+                  xBlood   
+              .span8.offset1
                 = yield
 
               

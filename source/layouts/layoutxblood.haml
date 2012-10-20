@@ -11,7 +11,7 @@
     %script{:src => "/javascripts/jquery.expander.js"}
  
    
-  %body.paginasl
+  %body.paginasb
     .container    
       .header
         .row    
@@ -50,25 +50,26 @@
                   %ul.nav.nav-list
                
                     %li.nav-header 
-                      %a{:href => "/xlab/xlab.html"} xLab
+                      %a{:href => "/xblood/xblood.html"} xBlood
                     %li
-                      %a{:href => "/xlab/caracteristicasl.html"} Características Generales
+                      %a{:href => "/xblood/caracteristicasb.html"} Características Generales
                     %li
-                      %a{:href => "/xlab/modulosl.html"} Módulos
+                      %a{:href => "/xblood/modulosb.html"} Módulos
                     %li
-                      %a{:href => "/xlab/funcionalidadl.html"} Funcionalidad
+                      %a{:href => "/xblood/funcionalidadb.html"} Funcionalidad
                     %li
-                      %a{:href => "/xlab/pdfl.html"} Obtenga información PDF
+                      %a{:href => "/xblood/pdfb.html"} Obtenga información PDF
                     %li
-                      %a{:href => "/xlab/videosl.html"} Videos de demostración
+                      %a{:href => "/xblood/videosb.html"} Videos de demostración
                     %li
-                      %a{:href => "/pages/contacto.html"} Solicite Información
+                      %a{:href => "/xblood/contactob.html"} Solicite Información
                 %a.btn.btn-small.btn-info{:href => "/xhosp/xhosp.html"}
                   xHosp
+                %a.btn.btn-small.btn-info{:href => "/xlab/xlab.html"}
+                  xLab
                 %a.btn.btn-small.btn-info{:href => "/xray/xray.html"}
                   xRay 
-                %a.btn.btn-small.btn-info{:href => "/xblood/xblood.html"}
-                  xBlood   
+                   
               .span8.offset1
                 = yield
 
