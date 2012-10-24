@@ -32,9 +32,7 @@
           %li
             %a{:href => "/pages/servicios.html"} Servicios
             %span.divider /
-          %li
-            %a{:href => "/pages/productos.html"} Productos
-            %span.divider /
+          
           %li
             %a{:href => "/pages/clientes.html"} Clientes
             %span.divider /
@@ -63,12 +61,15 @@
                       %a{:href => "/xlab/videosl.html"} Videos de demostración
                     %li
                       %a{:href => "/pages/contacto.html"} Solicite Información
-                %a.btn.btn-small.btn-info{:href => "/xhosp/xhosp.html"}
-                  xHosp
-                %a.btn.btn-small.btn-info{:href => "/xray/xray.html"}
-                  xRay 
-                %a.btn.btn-small.btn-info{:href => "/xblood/xblood.html"}
-                  xBlood   
+                
+
+                %a.btn.btn-large.btn-primary{:href => "/xhosp/xhosp.html"}
+                  Ir a xHosp
+                %a.btn.btn-large.btn-primary{:href => "/xray/xray.html"}
+                  Ir a xRay  
+                .imgs
+                  %img{:src => "/images/xlab.jpg", :alt => "Virtus Medical"}         
+                
               .span8.offset1
                 = yield
 

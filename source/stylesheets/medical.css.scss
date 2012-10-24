@@ -2,25 +2,43 @@
 body {
   &.principal {
     background-image: url(/images/back.jpg);
+
    }
   &.paginash {
-    background-color: #b6ffab;
+    background-color: #328c2c;
    }
    &.paginasr {
-    background-color: #ded6e5;
-   }
-&.paginasb {
-    background-color: #fdedee;
+    background-color: #844da0;
    }
 
   &.paginasl {
-    background-color: #c2dfff;
+    background-color: #3f71b8;
    }
 }
 
+//configuración cuadros principales
+.cuadro {
+  padding-left: 120px;
+  font-family: 'Questrial', arial, serif;
+  font-size: 100%;
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 2pt 1pt 3pt blue;
+}
+//images sidebar
+.imgs {
+    border: 0 none;
+    margin-top: 30px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+//titulo menu
 .mtitle {
   font-family: 'Questrial', arial, serif;
   font-size: 180%;
+  color: white;
   line-height: 1;
   text-align: rigth;
   padding-left: 10px;
@@ -38,10 +56,11 @@ body {
   font-family: 'Questrial', arial, serif;
   font-size: 180%;
   line-height: 1;
+  color: white;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: 2pt 1pt 3pt green;
 }
-
 
 .titlep {
   font-family: 'Questrial', arial, serif;
@@ -50,13 +69,15 @@ body {
   text-align: left;
   padding-bottom: 20px;
 }
-
+//títulos módulos
 .titlec {
   font-family: 'Questrial', arial, serif;
   font-size: 150%;
+  color: white;
   line-height: 1;
   text-align: left;
   padding-bottom: 20px;
+  text-shadow: 2pt 1pt 3pt #2f7753;
 }
 
 
@@ -64,22 +85,26 @@ body {
 a {
     color: blue;
 }
+//todos los textos grales
 .text {
+  font-family: 'Questrial', arial, serif;
+  font-size: 120%;
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  text-shadow: 2pt 1pt 3pt #2f7753;
+}
+
+//textos contacto
+.textc {
   font-family: 'Questrial', arial, serif;
   font-size: 120%;
   color: black;
   line-height: 1.5;
   text-align: justify;
-
+  text-shadow: 2pt 1pt 3pt #2f7753;
 }
-.texti {
-  font-family: 'Questrial', arial, serif;
-  font-size: 100%;
-  color: black;
-  line-height: 1.5;
-  text-align: left;
 
-}
 
 .nav .nav-header {
   font-size: 16px;

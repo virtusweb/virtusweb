@@ -9,8 +9,15 @@
     %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"}
     %script{:src => "/javascripts/jquery.js"}
     %script{:src => "/javascripts/jquery.expander.js"}
- 
-   
+    
+    %script{:src => "/javascripts/layout.js", :type => "text/javascript"}
+    %script{:src => "/javascripts/bootstrap-carousel.js", :type => "text/javascript"}
+    
+    :javascript
+      $(function(){
+        $('.carousel').carousel({interval: 1500});
+      });
+
   %body.principal
     .container    
       .header
@@ -31,9 +38,6 @@
             %span.divider /
           %li
             %a{:href => "/pages/servicios.html"} Servicios
-            %span.divider /
-          %li
-            %a{:href => "/pages/productos.html"} Productos
             %span.divider /
           %li
             %a{:href => "/pages/clientes.html"} Clientes
