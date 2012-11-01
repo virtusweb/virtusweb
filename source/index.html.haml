@@ -1,35 +1,74 @@
 ---
 title: Virtus Medical
+layout: layout
 ---
-.row
-  .span10.offset1
-    .text
-      BIENVENIDOS<br/>
-      Virtus Medical es una empresa 100% mexicana enfocada en el desarrollo de software para el sector médico, hospitalario y de diagnóstico con más de 20 años de experiencia en este sector.<br/>
-      Hemos desarrollado los siguientes sistemas:<br/>
-
-<br/>
-.row
-  .cuadro
-    .span3
-      .hero-unit
-        %a{:href => "/xhosp/xhosp.html"}
-          %img{:src => "/images/xhosp.jpg", :alt => "xHosp"}
-        xHosp<br/> Sistema integral para la administración hospitalaria.<br/>
+.container
+  .row
+    .span6
+      .text
+        Virtus Medical es una empresa 100% mexicana enfocada en el desarrollo de software para el sector médico, hospitalario y de diagnóstico con más de 20 años de experiencia en este sector.<br/>
+        <br/> 
+        Nos dedicamos a la implantación, capacitación y soporte técnico de nuestros sistemas con clientes en diversos estados de la República Mexicana.<br/>
         <br/>
-
-    .span3
-      .hero-unit
-        %a{:href => "/xlab/xlab.html"}
-          %img{:src => "/images/xlab.jpg", :alt => "xLab"}
-        xLab<br/> Sistema para el control y operación de laboratorios clínicos<br/>
+        Así mismo, también nos encargamos del desarrollo de nueva funcionalidad para nuestros sistemas, interfaces con equipos clinicos (autoanalizadores), equipos digitales de imagenología por medio de HL7 y DICOM, así como interfaces con otros sistemas contables y administrativos.<br/>
+        <br/>
+        Virtus Medical es una división más de 
+        %a{:href =>  "http://www.virtus.com.mx", :target => "_blank"}   
+          %img{:src => "/images/VirtusGroup.jpg", :alt => "xHosp"}
+        nos especializamos en ofrecer soluciones a los problemas de su negocio mediante la adecuada aplicacion de la tecnología de información.<br/>
+    
         
-    .span3
-      .hero-unit
-        %a{:href => "/xray/xray.html"}
-          %img{:src => "/images/xray.jpg", :alt => "xRay"}
-        xRay<br/> Sistema para el control y operación de gabinetes de imagenología<br/>
-
-
-
+        
   
+    .span5.offset1
+      <br/>
+      #myCarousel.carousel.slide
+        .carousel-inner
+          .item.active
+            = image_tag "/images/hospital.jpg"
+            .carousel-caption
+              %h4 xHosp
+              %p Sistema integral para la administración hospitalaria.
+          .item
+            = image_tag "/images/xhosp.jpg"
+            .carousel-caption
+              %h4 xHosp
+              %p Sistema integral para la administración hospitalaria.
+          .item
+            = image_tag "/images/hospital1.jpg"
+            .carousel-caption
+              %h4 xHosp
+              %p Sistema integral para la administración hospitalaria.   
+          .item
+            = image_tag "/images/tubos.jpg"
+            .carousel-caption
+              %h4 xLab
+              %p Sistema para el control y operación de laboratorios clínicos
+          .item
+            = image_tag "/images/xlab.jpg"
+            .carousel-caption
+              %h4 xLab
+              %p Sistema para el control y operación de laboratorios clínicos
+          .item
+            = image_tag "/images/tubos1.jpg"
+            .carousel-caption
+              %h4 xLab
+              %p Sistema para el control y operación de laboratorios clínicos        
+          .item
+            = image_tag "/images/rayos.jpg"
+            .carousel-caption
+              %h4 xRay
+              %p Sistema para el control y operación de gabinetes de imagenología
+          .item
+            = image_tag "/images/xray.jpg"
+            .carousel-caption
+              %h4 xRay
+              %p Sistema para el control y operación de gabinetes de imagenología
+          .item
+            = image_tag "/images/rayos1.jpg"
+            .carousel-caption
+              %h4 xRay
+              %p Sistema para el control y operación de gabinetes de imagenología
+         
+         
+        
